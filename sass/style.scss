@@ -1,3 +1,5 @@
+@use "./colors" as colors;
+
 *,
 *::before,
 *::after {
@@ -5,3 +7,23 @@
 	margin: 0;
 	padding: 0;
 }
+
+html {
+	font-size: 62.5%;
+}
+
+.attribution {
+	font-size: 11px;
+	text-align: center;
+}
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
+
+// Font size (paragraph): 15px
+
+// <---- MEDIA QUERY FOR DESKTOPS ---->
+
+// @media (min-width: 1440px) {
+
+// }
