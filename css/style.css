@@ -15,7 +15,7 @@ html {
 }
 
 body .card {
-  width: 50vw;
+  width: 80vw;
   height: 100%;
   position: relative;
   top: 50%;
@@ -27,20 +27,22 @@ body .card {
   justify-content: center;
   align-items: center;
   padding: 10px;
-  margin: 10px;
+  margin: 15px 0;
   background-color: hsl(0, 0%, 100%);
   border-radius: 10px;
 }
 body .card__img {
-  width: 90%;
+  max-width: 100%;
   margin-top: 10px;
   border-radius: 10px;
 }
 body .card__txtBox {
-  padding: 10px 15px;
+  padding: 20px 15px 30px;
   text-align: center;
 }
 body .card__header {
+  padding: 15px 0;
+  font-size: 2rem;
   font-weight: 700;
   color: hsl(218, 44%, 22%);
 }
@@ -52,7 +54,7 @@ body .card__text {
 
 footer {
   width: 100vw;
-  height: 5vh;
+  height: 70px;
   padding: 10px 0;
   background-color: #fff;
   text-align: center;
